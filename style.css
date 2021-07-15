@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.game__inner {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-field {
+  display: flex;
+  flex-wrap: wrap;
+  width: 285px;
+  height: 280px;
+  background: rgb(255, 222, 133);
+  border: 2px solid brown;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  background: transparent;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.exist {
+  background: rgb(67, 0, 122);
+}
